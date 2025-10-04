@@ -1,0 +1,8 @@
+{
+  "name": "autojobtrack",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-10-01",
+  "vars": {
+    "CF_ACCOUNT_ID": "10eb421e4687c08330ec0cd679474eda"
+  }
+}
