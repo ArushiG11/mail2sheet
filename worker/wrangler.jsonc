@@ -1,8 +1,34 @@
 {
-  "name": "autojobtrack",
-  "main": "src/index.ts",
-  "compatibility_date": "2024-10-01",
-  "vars": {
-    "CF_ACCOUNT_ID": "10eb421e4687c08330ec0cd679474eda"
-  }
+	"name": "autojobtrack",
+	"main": "src/index.ts",
+	// "remote": true,
+	"compatibility_date": "2024-10-01",
+  "triggers": { "crons": ["0 * * * *"] },
+	"ai": {
+		"binding": "AI"
+	},
+	"kv_namespaces": [
+		{
+      "binding": "TOKENS",
+      "id": "0a76c5aefea5440ebb3b7bd55de11844",
+      "preview_id": "0a76c5aefea5440ebb3b7bd55de11844"
+    }
+		// {
+		// 	"binding": "TOKENS",
+		// 	"id": "0a76c5aefea5440ebb3b7bd55de11844",
+		// 	"remote": trxue
+		// }
+	],
+	"vars": {
+    "GOOGLE_CLIENT_ID":"9033175639-j4m3sklnfvsdbmv6cgrsrpfi3ng5qugo.apps.googleusercontent.com",
+"GOOGLE_CLIENT_SECRET":"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",
+		"CF_ACCOUNT_ID": "10eb421e4687c08330ec0cd679474eda",
+		"MONGO_GATEWAY_BASE": "https://mail2sheet-887f.vercel.app",
+		"MODEL_ID": "@cf/meta/llama-3.1-8b-instruct",
+		"GOOGLE_REDIRECT_URI": "https://autojobtrack.mail2sheet.workers.dev/oauth/google/callback",
+    // "GOOGLE_REDIRECT_URI": "http://127.0.0.1:8787/oauth/google/callback",
+    "SHEETS_SPREADSHEET_ID": "1qTc1xsikam__YBwJCWWUH87Zm6PGFzFgef3Z6KxR9uc",
+    "SHEETS_TAB": "Applications"
+    
+	}
 }

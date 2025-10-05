@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@vercel/node": "^5.3.24",
+    "mongodb": "^6.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "typescript": "^5.9.3"
+  }
+}
