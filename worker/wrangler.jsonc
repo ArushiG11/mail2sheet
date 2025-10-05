@@ -10,8 +10,8 @@
 	"kv_namespaces": [
 		{
       "binding": "TOKENS",
-      "id": "0a76c5aefea5440ebb3b7bd55de11844",
-      "preview_id": "0a76c5aefea5440ebb3b7bd55de11844"
+      "id": "${KVID}",
+      "preview_id": "${KVID}"
     }
 		// {
 		// 	"binding": "TOKENS",
