@@ -1,0 +1,22 @@
+# Node / build
+node_modules/
+dist/
+.vercel/
+.next/
+
+# Env & secrets
+.env
+.env.*
+*.pem
+*.key
+key
+key.pub
+
+# Cloudflare Wrangler local state
+worker/.wrangler/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
