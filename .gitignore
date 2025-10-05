@@ -19,4 +19,7 @@ worker/.wrangler/
 npm-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+.wrangler
 
+.wrangler/
+.vercel/
